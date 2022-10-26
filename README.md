@@ -1,5 +1,5 @@
 # mlproject
-Just a sample test first MLproject 
+My first ML project 
 
 To start the machine learning project we need the following requirements
 
