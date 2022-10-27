@@ -20,6 +20,26 @@ Installing requirements
 ````````````````````````
 ->pip install -r requirements.txt
 
+Building Docker Image
+```````````````````````````````
+->docker build -t <image_name>:<tagname> .
+Note :- image name should be in lower case 
+
+Listing docker images 
+````````````````````````````````````
+-> docker images
+
+To run docker image 
+````````````
+->docker run -p 5000:5000 -e PORT=5000 <IMAGE_ID>
+
+To check running containers 
+``````````````````````
+-> docker ps 
+
+To stop running containers
+`````````````````````````
+-> docker stop <container_id>
 
 
 
